@@ -29,7 +29,7 @@
 .landing-page .right .text > div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .landing-page .right button{
