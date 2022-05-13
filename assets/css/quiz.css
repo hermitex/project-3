@@ -1,0 +1,98 @@
+.quiz {
+  height: 40vh;
+  width: 70vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.inner-container .next,
+.inner-container .prev {
+  font-size: 2rem;
+  padding: 0.1rem 1rem;
+  border-radius: 3rem;
+  width: 4rem;
+}
+
+.inner-container .next:hover,
+.inner-container .prev:hover {
+  font-size: 3rem;
+  cursor: pointer;
+  border: 0.1px solid yellow;
+}
+
+.quiz-top {
+  box-shadow: rgba(240, 216, 3, 0.979) 10px 10px,
+    rgba(240, 216, 3, 0.979) 20px 20px, rgba(240, 216, 3, 0.979) 30px 30px;
+}
+
+.quiz-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.custom-icon .dash {
+  margin-top: 3rem;
+  height: 0.5rem;
+  width: 3rem;
+  border-radius: 3rem;
+  background-color: white;
+}
+
+.custom-icon .circle {
+  margin-top: 0.5rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 3rem;
+  background-color: white;
+}
+.custom-icon.second-icon-tray {
+  margin-left: 3rem;
+}
+
+.custom-icon.second-icon-tray .circle {
+  margin-top: 0.5rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 3rem;
+  background-color: yellow;
+}
+
+.custom-icon.second-icon-tray .dash {
+  margin-top: 0.5rem;
+  height: 0.5rem;
+  width: 3rem;
+  border-radius: 3rem;
+  background-color: yellow;
+}
+.buttons.action {
+  margin-top: 3rem;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 7rem;
+  left: 50%;  
+}
+
+.buttons.action .switch{   
+    position: relative;
+  }
