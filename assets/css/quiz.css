@@ -16,6 +16,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .inner-container .next,
@@ -36,6 +37,7 @@
 .quiz-top {
   box-shadow: rgba(240, 216, 3, 0.979) 10px 10px,
     rgba(240, 216, 3, 0.979) 20px 20px, rgba(240, 216, 3, 0.979) 30px 30px;
+
 }
 
 .quiz-top {
@@ -81,7 +83,7 @@
   background-color: yellow;
 }
 .buttons.action {
-  margin-top: 3rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
