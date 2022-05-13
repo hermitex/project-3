@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* utilities */
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .bg-dark {
+    background-color: #0a0a0a;
+  }
+  .bg-yellow{
+      background-color: yellow;
+  
+  }
+  
+  .bg-white{
+      background-color: white;
+      
+  }
+  
+  .bg-yellow{
+      background-color: yellow;
+  }
+  
+  .color-yellow{
+      color: yellow;
+  }
+  
+  .mr-3{
+      margin-left: 13rem;
+  }
+  
+  .pr{
+      padding-right: 3rem;
+  }
+  
+  .pl{
+      padding-left: 3rem;
+  }
+  
+ 
