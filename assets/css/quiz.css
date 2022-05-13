@@ -16,7 +16,6 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
- 
 }
 
 .inner-container .next,
@@ -83,16 +82,60 @@
 }
 .buttons.action {
   margin-top: 3rem;
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  align-content: center;
   align-items: center;
-  position: absolute;
   bottom: 7rem;
-  left: 50%;  
+  gap: 25rem;
 }
 
-.buttons.action .switch{   
-    position: relative;
-  }
+.buttons.action .switch {
+  position: relative;
+
+  display: inline-block;
+
+  width: 7rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background-color 1.5s;
+  border-radius: 3rem;
+  background-color: #c4c4c4;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2.9rem;
+  width: 3rem;
+  background-color: #fff;
+  border-radius: 3rem;
+}
+
+input:checked + .slider {
+  background-color: yellow;
+}
+
+input:checked + .slider:before {
+  transform: translate(3.8rem);
+}
+
+.action-text {
+  position: absolute;
+  bottom: 4rem;
+  left: 2rem;
+}
