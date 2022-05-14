@@ -5,9 +5,22 @@
   justify-content: space-between;
 }
 
+.bg-light-yellow {
+  background-color: #0a0a0a49;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .score-inner {
-  height: 50vh;
-  width: 50vw;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,16 +38,43 @@
   width: 10rem;
 }
 
-.buttons.action-btn{
-    display: flex;
-    flex-direction: row;
-    gap:10rem;
+.buttons.action-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
 }
 
-.remarks{
-    font-size:3rem;
+.buttons.action-btn button{
+    background-color: yellow;
+    outline: none;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    border: 0;
+    font-size: 1.5rem;
+
+  }
+
+.remarks {
+  font-size: 3rem;
+  color: yellow;;
 }
 
-#score{
-    font-size:10rem;
+#score {
+  font-size: 10rem;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#results-firworks {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
 }
