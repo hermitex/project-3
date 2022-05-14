@@ -1,0 +1,40 @@
+.score-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.score-inner {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons img {
+  width: 10rem;
+}
+
+.buttons.action-btn{
+    display: flex;
+    flex-direction: row;
+    gap:10rem;
+}
+
+.remarks{
+    font-size:3rem;
+}
+
+#score{
+    font-size:10rem;
+}
