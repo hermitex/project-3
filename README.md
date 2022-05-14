@@ -28,6 +28,7 @@
   - [Result Page](#result-page)
   - [Table of Content](#table-of-content)
   - [Description](#description)
+  - [Figma Design[#figma-design]](#figma-designfigma-design)
   - [Features](#features)
     - [Requirements](#requirements)
     - [Installation Process](#installation-process)
@@ -40,7 +41,7 @@
 ## Description
 <p>This is a quiz application built using plain HTML, CSS and JS. LaQuiz allows a user to read a question and then select an asnwer to the question as either false or true. The user can then submit the answers when satisfied with theit attempt. The application also allows the user to see their results and allows them to repeat the quiz if they wish to or close the application</p>
 
-##Figma Design[#figma-design]
+## Figma Design[#figma-design]
 * Feel free to view the figma design [here](https://www.figma.com/file/UhHLiOlorSlMAvqH6N6rJ6/quiz-app?node-id=0%3A1)
 
 [Go Back to the top](#LaQuiz)
