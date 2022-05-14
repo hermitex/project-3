@@ -3,6 +3,9 @@
 
 #### By Tiberius Mairura
 
+## Figma Design
+- [Figma Design](https://www.figma.com/file/UhHLiOlorSlMAvqH6N6rJ6/quiz-app?node-id=0%3A1)
+
 ## Landing Page
 ![image](./assets/images/landing-page.png)
 
@@ -19,6 +22,7 @@
 - [LaQuiz](#laquiz)
       - [LaQuiz is a quiz application that allows users to read questions and select the answers as either false or true, 08/05/2022](#laquiz-is-a-quiz-application-that-allows-users-to-read-questions-and-select-the-answers-as-either-false-or-true-08052022)
       - [By Tiberius Mairura](#by-tiberius-mairura)
+  - [Figma Design](#figma-design)
   - [Landing Page](#landing-page)
   - [Quiz Page](#quiz-page)
   - [Result Page](#result-page)
