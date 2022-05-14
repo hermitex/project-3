@@ -1,5 +1,5 @@
-# La Quiz
-#### La Quiz is a quiz application that allows users to read questions and select the answers as either false or true, 08/05/2022
+# LaQuiz
+#### LaQuiz is a quiz application that allows users to read questions and select the answers as either false or true, 08/05/2022
 
 #### By Tiberius Mairura
 
@@ -16,8 +16,8 @@
 
 
 ## Table of Content
-- [La Quiz](#la-quiz)
-      - [La Quiz is a quiz application that allows users to read questions and select the answers as either false or true, 08/05/2022](#la-quiz-is-a-quiz-application-that-allows-users-to-read-questions-and-select-the-answers-as-either-false-or-true-08052022)
+- [LaQuiz](#laquiz)
+      - [LaQuiz is a quiz application that allows users to read questions and select the answers as either false or true, 08/05/2022](#laquiz-is-a-quiz-application-that-allows-users-to-read-questions-and-select-the-answers-as-either-false-or-true-08052022)
       - [By Tiberius Mairura](#by-tiberius-mairura)
   - [Landing Page](#landing-page)
   - [Quiz Page](#quiz-page)
@@ -34,17 +34,17 @@
   - [Author's Details](#authors-details)
 
 ## Description
-<p>This is a responsive page built using plain HTML and CSS to showcase La Quiz' proprties and services. La Quiz is a real estate and moving service company.The page shows the basic information about the company and helps those who wish to buy property or move to a new residence do so easily and comfortably.</p>
+<p>This is a responsive page built using plain HTML and CSS to showcase LaQuiz' proprties and services. LaQuiz is a real estate and moving service company.The page shows the basic information about the company and helps those who wish to buy property or move to a new residence do so easily and comfortably.</p>
 
-[Go Back to the top](#La Quiz)
+[Go Back to the top](#LaQuiz)
 
 ## Features
 As a user you should be able to see:
-1. Basic information about La Quiz
+1. Basic information about LaQuiz
 2. View the their property listings and moving services
-3. Get in touch and work with the La Quiz
+3. Get in touch and work with the LaQuiz
 
-[Go Back to the top](#La Quiz)
+[Go Back to the top](#LaQuiz)
  ###  Requirements
  * Access to  a computer, mobile phone or any other garget
  * Internet access
@@ -54,7 +54,7 @@ As a user you should be able to see:
 * Unzip the downloaded files in a folder of choice.
 * Open the index.html file from the zipped file with any browser.
  ****
-[Go Back to the top](#La Quiz)
+[Go Back to the top](#LaQuiz)
 ### Live Link
 - Click this link to view the live application https://hermitex.github.io/project-2/
 ### Technology  Used
@@ -62,7 +62,7 @@ As a user you should be able to see:
 * CSS - to style the User Interface
 * JavaScript - make the page dynamic and lively
 
-[Go Back to the top](#La Quiz)
+[Go Back to the top](#LaQuiz)
 ## Known Bugs
 * The page might not be fully responsive
 
@@ -85,11 +85,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#La Quiz)
+[Go Back to the top](#LaQuiz)
 
 ## Author's Details
 Feel free to reach out via:
 * StackOverflow Profile - [Tiberius Mairura](https://stackoverflow.com/users/11869442/tiberius)
 * Linked - [Tiberius Mairura](https://www.linkedin.com/in/tiberius-mairura/)
 
-[Go Back to the top](#La Quiz)
+[Go Back to the top](#LaQuiz)
