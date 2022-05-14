@@ -39,10 +39,14 @@
 [Go Back to the top](#LaQuiz)
 
 ## Features
-As a user you should be able to see:
-1. Basic information about LaQuiz
-2. View the their property listings and moving services
-3. Get in touch and work with the LaQuiz
+As a user you should be able to:
+1. Start the quizes
+2. See and read questions
+3. Select the appropriate answer for the question
+4. Submit the answers
+5. View the results of your attempt
+6. Re-try the quiz
+7. Close the application
 
 [Go Back to the top](#LaQuiz)
  ###  Requirements
