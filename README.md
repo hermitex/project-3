@@ -34,7 +34,7 @@
   - [Author's Details](#authors-details)
 
 ## Description
-<p>This is a responsive page built using plain HTML and CSS to showcase LaQuiz' proprties and services. LaQuiz is a real estate and moving service company.The page shows the basic information about the company and helps those who wish to buy property or move to a new residence do so easily and comfortably.</p>
+<p>This is a quiz application built using plain HTML, CSS and JS. LaQuiz allows a user to read a question and then select an asnwer to the question as either false or true. The user can then submit the answers when satisfied with theit attempt. The application also allows the user to see their results and allows them to repeat the quiz if they wish to or close the application</p>
 
 [Go Back to the top](#LaQuiz)
 
@@ -50,13 +50,13 @@ As a user you should be able to see:
  * Internet access
 ### Installation Process
 ****
-* Clone to this repo by running the command : git clone https://github.com/hermitex/project-2.git
+* Clone to this repo by running the command : git clone https://github.com/hermitex/project-3.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index.html file from the zipped file with any browser.
  ****
 [Go Back to the top](#LaQuiz)
 ### Live Link
-- Click this link to view the live application https://hermitex.github.io/project-2/
+- Click this link to view the live application https://hermitex.github.io/project-3/
 ### Technology  Used
 * HTML -to develop the structure off the page
 * CSS - to style the User Interface
