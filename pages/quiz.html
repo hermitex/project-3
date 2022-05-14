@@ -17,19 +17,12 @@
   <body>
     <div class="container bg-dark text-dark">
       <div class="inner-container">
-        <div class="prev">
-          <i class="fa-solid fa-chevron-left text-white"></i>
+        <div>
+          <i class="fa-solid fa-chevron-left text-white prev quiz-controls"></i>
         </div>
         <div class="quiz-container">
           <div class="quiz quiz-top bg-white">
-            <p>Javascript is a programming language
-
-                Javascript is a programming language
-
-                Javascript is a programming language
-
-                Javascript is a programming language
-            </p>
+            <p id="quiz"></p>
           </div>
           <div class="custom-icon first-icon-tray">
             <div class="dash"></div>
@@ -40,24 +33,26 @@
             <div class="circle"></div>
           </div>
         </div>
-        <div class="next">
-          <i class="fa-solid fa-chevron-right text-white"></i>
+        <div>
+          <i
+            class="fa-solid fa-chevron-right text-white next quiz-controls"
+          ></i>
         </div>
       </div>
       <div class="buttons action text-white">
-      
-        <label class="switch">   
-            <div class="true action-text"><p>True</p></div>         
+        <label class="switch">
+          <div class="true action-text"><p>True</p></div>
           <input type="radio" name="response" id="" />
-          <span class="slider" > </span>
+          <span class="slider"> </span>
         </label>
-        
-        <label class="switch">  
-            <div class="false action-text"><p>False</p></div>         
-            <input type="radio" name="response" id="" />
-            <span class="slider"></span>
-          </label>
+
+        <label class="switch">
+          <div class="false action-text"><p>False</p></div>
+          <input type="radio" name="response" id="" />
+          <span class="slider"></span>
+        </label>
       </div>
     </div>
+    <script type="module" src="../assets/js/quiz.js"></script>
   </body>
 </html>
