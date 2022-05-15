@@ -26,3 +26,12 @@ const videos = [
 
 let videoToPlay = Math.floor(Math.random() * videos.length);
 videoContainer.src = videos[videoToPlay].url;
+
+
+document.querySelector('.back-to-quiz').addEventListener('click',()=>{
+    location.href = `../pages/quiz.html`;
+})
+
+document.querySelector('.home').addEventListener('click',()=>{
+    location.href = `/index.html`;
+})
