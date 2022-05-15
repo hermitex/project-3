@@ -33,5 +33,5 @@ document.querySelector('.back-to-quiz').addEventListener('click',()=>{
 })
 
 document.querySelector('.home').addEventListener('click',()=>{
-    location.href = `/index.html`;
+    location.href = `/`;
 })
