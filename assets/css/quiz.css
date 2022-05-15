@@ -1,14 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
 .quiz {
   height: 40vh;
-  width: 70vh;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
+  width: 50vw;
 }
 
 .inner-container {
@@ -30,12 +31,13 @@
 .inner-container .prev:hover {
   font-size: 3rem;
   cursor: pointer;
-  border: 0.1px solid yellow;
+  background-color: rgba(255, 255, 0, 0.884);
+  color: #0a0a0a;
 }
 
 .quiz-top {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -43,6 +45,22 @@
   box-shadow: rgba(240, 216, 3, 0.979) 10px 10px,
     rgba(240, 216, 3, 0.979) 20px 20px, rgba(240, 216, 3, 0.979) 30px 30px;
   padding: 1rem 1.5rem;
+}
+
+.submit{
+    background-color: rgb(147, 179, 147);
+    padding: 1rem 1.5rem;
+    border: 0;
+    cursor: pointer;
+    width: 10rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.submit:hover{
+    background-color: rgb(30, 146, 30);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .custom-icon .dash {
@@ -92,11 +110,9 @@
 
 .buttons.action .switch {
   position: relative;
-
   display: inline-block;
-
   width: 7rem;
-  height: 3rem;
+  height: 2.5rem;
   border-radius: 3rem;
 }
 
@@ -119,14 +135,14 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 2.9rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 3.1rem;
   background-color: #fff;
   border-radius: 3rem;
 }
 
 input:checked + .slider {
-  background-color: yellow;
+  background-color: green;
 }
 
 input:checked + .slider:before {
