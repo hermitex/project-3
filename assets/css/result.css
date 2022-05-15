@@ -87,7 +87,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30rem;
+  max-width: 30rem;
   background-color: rgba(211, 211, 211, 0.534);
   position: fixed;
   left: 0;
