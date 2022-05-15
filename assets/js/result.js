@@ -28,9 +28,7 @@ const videos = [
 const showFireWorks = () => {
   let videoToPlay = Math.floor(Math.random() * videos.length);
   videoContainer.src = videos[videoToPlay].url;
-}
-
-
+};
 
 const checkUserScore = () => {
   let extractScore = /\d+/g;
@@ -40,19 +38,19 @@ const checkUserScore = () => {
 
 const giveRemark = () => {
   let score = checkUserScore();
-  if (score >= 80) {
-    remarks.textContent = `You must be a genius! ${score} is a great score. Fireworks to you!`
-    showFireWorks();
+
+  if (score < 50) {
+    remarks.textContent = `This must have challenged your facualties or it is just a bad day. Please try again!`;
   } else if (score >= 50 && score <= 80) {
-    remarks.textContent = `You did good but you could improve!`
+    remarks.textContent = `You did good but you could improve!`;
     showFireWorks();
   } else {
-    remarks.textContent = `This must have challenged your facualties or it is just a bad day. Please try again!`;
+    remarks.textContent = `You must be a genius! ${score} is a great score. Fireworks to you!`;
+    showFireWorks();
   }
 };
 
-giveRemark()
-
+giveRemark();
 
 document.querySelector(".back-to-quiz").addEventListener("click", () => {
   location.href = `../pages/quiz.html`;

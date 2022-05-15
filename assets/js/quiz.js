@@ -118,6 +118,8 @@ const calculateUserScore = (userScore) => {
   btnSubmit.textContent = "Submit";
   //   add class to button
   btnSubmit.classList.add("submit");
+  // disable submit button
+  // btnSubmit.disabled = "true";
   //   append button to parent div
   divElement.appendChild(btnSubmit);
   //   append div with button to parent div
@@ -129,5 +131,17 @@ const calculateUserScore = (userScore) => {
     location.href = `../pages/result.html?score=${percentageScore}%`;
   };
 };
+
+// Toggle radio button check status.
+const submit = () => {
+  allAnswerControls.forEach((control) => {
+    if (control.checked) {
+      alert(1)
+      btnSubmit.disabled = "false";
+    }
+  });
+};
+
+
 
 listenQuizForControlEvents();

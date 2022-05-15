@@ -8,7 +8,7 @@
   }
 
 .quiz {
-  height: 40vh;
+  height: 60vh;
   width: 50vw;
 }
 
@@ -98,7 +98,7 @@
   border-radius: 3rem;
   background-color: yellow;
 }
-.buttons.action {
+.buttons.action form {
   margin-top: 5rem;
   display: flex;
   flex-direction: row;
