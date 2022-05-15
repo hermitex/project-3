@@ -23,7 +23,6 @@ const videos = [
     url: "../assets/videos/fireworks-3.mp4",
   },
 ];
-
 let videoToPlay = Math.floor(Math.random() * videos.length);
 videoContainer.src = videos[videoToPlay].url;
 
@@ -33,5 +32,5 @@ document.querySelector('.back-to-quiz').addEventListener('click',()=>{
 })
 
 document.querySelector('.home').addEventListener('click',()=>{
-    location.href = `/`;
+    location.href = `/project-3`;
 })
