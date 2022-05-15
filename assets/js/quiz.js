@@ -12,6 +12,7 @@ let quizContainer = document.querySelector("#quiz");
 // Get answer controls
 const answerTrue = document.querySelector(".true");
 const answerFalse = document.querySelector(".false");
+const allAnswerControls = document.querySelectorAll(".answer-controls");
 
 // Start quiz
 const initializeQuiz = () => {
@@ -21,6 +22,10 @@ initializeQuiz();
 
 // Handle use navigation
 const handleQuizControlEvents = (action, currentQuiz) => {
+  if (currentQuiz === 0) {
+    quizContainer.textContent = quizes[currentQuiz].question;
+    markUserAnswers(currentQuiz);
+  }
   if (action === "next") {
     currentQuiz += 1;
     if (currentQuiz < 10) {
@@ -49,6 +54,15 @@ const findCurrentQuiz = () => {
   return currentIndex;
 };
 
+// Toggle radio button check status.
+const toggleRadioStatus = () => {
+  allAnswerControls.forEach((control) => {
+    if (control.checked) {
+      control.checked = !control.checked;
+    }
+  });
+};
+
 // Monitor mouse clicks
 const listenQuizForControlEvents = () => {
   let currentIndex = findCurrentQuiz();
@@ -68,20 +82,17 @@ const listenQuizForControlEvents = () => {
 const markUserAnswers = (currentIndex) => {
   if (answerTrue.checked) {
     quizes[currentIndex].userAnswer = "true";
-    // if (quizes[currentIndex].answer==="true") {
-    //   quizes[currentIndex].correct = "true";
-    // }
-    // quizes[currentIndex].correct = "false";
+    toggleRadioStatus();
+    // console.log(quizes[currentIndex].userAnswer, quizes[currentIndex].answer)
   } else if (answerFalse.checked) {
     quizes[currentIndex].userAnswer = "false";
-    // if (quizes[currentIndex].answer==="false") {
-    //   quizes[currentIndex].correct = "true";
-    // }
-    // quizes[currentIndex].correct = "false";
+    toggleRadioStatus();
+    // console.log(quizes[currentIndex].userAnswer, quizes[currentIndex].answer)
   }
   if (currentIndex == 9) {
     calculateUserScore(quizes);
   }
+  console.log(quizes);
 };
 
 const calculateUserScore = (userScore) => {
@@ -95,7 +106,28 @@ const calculateUserScore = (userScore) => {
   });
 
   percentageScore = (marks / 10) * 100;
-  location.href = `../pages/result.html?score=${percentageScore}%`;
+  console.log(percentageScore);
+
+  // Create div container to hold a button
+  const divElement = document.createElement("div");
+  // Add classes to the div
+  divElement.classList.add("buttons");
+  divElement.classList.add("action-btn");
+  //   create a button for submitting attempt
+  const btnSubmit = document.createElement("button");
+  btnSubmit.textContent = "Submit";
+  //   add class to button
+  btnSubmit.classList.add("submit");
+  //   append button to parent div
+  divElement.appendChild(btnSubmit);
+  //   append div with button to parent div
+  quizContainer.parentElement.appendChild(divElement);
+
+  //   listen for btnSubmit click events
+  btnSubmit.onclick = () => {
+    //   navigate to result page on submit
+    location.href = `../pages/result.html?score=${percentageScore}%`;
+  };
 };
 
 listenQuizForControlEvents();
